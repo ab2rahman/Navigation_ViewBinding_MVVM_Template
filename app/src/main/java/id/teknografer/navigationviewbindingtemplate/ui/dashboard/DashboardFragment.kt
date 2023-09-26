@@ -25,6 +25,7 @@ class DashboardFragment : Fragment() {
         _binding = FragmentDashboardBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
+        //example of binding textview
         val textView: TextView = binding.textDashboard
 
         return root

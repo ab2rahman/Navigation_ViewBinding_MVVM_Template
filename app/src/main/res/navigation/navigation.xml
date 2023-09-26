@@ -11,4 +11,20 @@
         android:label="@string/menu_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
+    <fragment
+        android:id="@+id/nav_skills"
+        android:name="id.teknografer.navigationviewbindingtemplate.ui.skill.SkillsFragment"
+        android:label="@string/menu_skills"
+        tools:layout="@layout/fragment_skills" >
+        <action
+            android:id="@+id/action_nav_skills_to_skill_detail"
+            app:destination="@id/nav_skill_detail"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_skill_detail"
+        android:name="id.teknografer.navigationviewbindingtemplate.ui.skill.SkillDetailFragment"
+        android:label="@string/menu_skill_detail"
+        tools:layout="@layout/fragment_skill_detail" />
+
 </navigation>

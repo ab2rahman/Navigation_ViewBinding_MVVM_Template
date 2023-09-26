@@ -10,4 +10,6 @@
 
     <!--Menu Dashboard-->
     <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_skills">Skills</string>
+    <string name="menu_skill_detail">Skill_Detail</string>
 </resources>
