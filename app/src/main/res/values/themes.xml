@@ -7,7 +7,7 @@
 
     <style name="Theme.NavigationViewBindingTemplate" parent="Base.Theme.NavigationViewBindingTemplate" />
 
+    <!--Add these for styling AppBarOverlay and PopupOverlay-->
     <style name="Theme.NavigationViewBindingTemplate.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
     <style name="Theme.NavigationViewBindingTemplate.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

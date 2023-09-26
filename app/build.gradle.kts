@@ -5,11 +5,13 @@ plugins {
 
 android {
     namespace = "id.teknografer.navigationviewbindingtemplate"
+    //change compileSdk = 34
     compileSdk = 34
 
     defaultConfig {
         applicationId = "id.teknografer.navigationviewbindingtemplate"
         minSdk = 24
+        //change targetSdk = 34
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -34,7 +36,7 @@ android {
         jvmTarget = "1.8"
     }
 
-    //step no 01, add view binding feature = true
+    //add view binding feature = true
     buildFeatures {
         viewBinding = true
     }
@@ -48,6 +50,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    //add dependencies for navigation
     implementation("androidx.navigation:navigation-fragment-ktx:2.7.3")
     implementation("androidx.navigation:navigation-ui-ktx:2.7.3")
     testImplementation("junit:junit:4.13.2")
