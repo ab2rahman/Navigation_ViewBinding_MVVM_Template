@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Navigation View Binding Template</string>
+
+    <!--Navigation Drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!--Menu Dashboard-->
+    <string name="menu_dashboard">Dashboard</string>
+</resources>
